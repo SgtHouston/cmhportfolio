@@ -1,7 +1,7 @@
 import React from 'react'
 // Step 1 - npm install react-router-dom and import
 // Step 2 - Import React Router functionality components
-import { BrowserRouter as Router, Route, Link, Switch, Redirect} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 // Step 3 - Import Bootstrap and install  w/ npm install react-bootstrap@next bootstrap@5.0.2
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Step 4 = Import styled Components w/ npm install --save styled-components

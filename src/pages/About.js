@@ -4,15 +4,13 @@ import { Container } from 'react-bootstrap'
 // Step 4 
 import styled from 'styled-components'
 
-
-
 const TitleDiv = styled.div`
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: 2rem;
     color: #D11F36;
 `;
 
-const AboutDiv = styled.div`
+const SubtitleDiv = styled.div`
     font-size: 3rem;
 `;
 
@@ -21,6 +19,10 @@ const MoreDiv = styled.div`
     color: #D11F36;
 `;
 
+const TextDiv = styled.div`
+    font-size: 2vw;
+    padding: 5vw;
+`;
 
 
 
@@ -33,12 +35,16 @@ export default function About() {
                 <TitleDiv>
                     ABOUT
                 </TitleDiv>
-                <AboutDiv>
+                <SubtitleDiv>
                     Personal Info
-                </AboutDiv>
+                </SubtitleDiv>
                 <MoreDiv>
                     Get To Know More About Me
                 </MoreDiv>
+                
+                <TextDiv>
+
+                </TextDiv>
 
 
                 

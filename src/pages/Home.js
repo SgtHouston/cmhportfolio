@@ -4,12 +4,12 @@ import styled from 'styled-components'
 
 
 const TitleDiv = styled.div`
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: 2rem;
     color: #D11F36;
 `;
 
-const PIDiv = styled.div`
+const SubtitleDiv = styled.div`
     font-size: 3rem;
 `;
 
@@ -17,6 +17,12 @@ const MoreDiv = styled.div`
     font-size: 1rem;
     color: #D11F36;
 `;
+
+const TextDiv = styled.div`
+    font-size: 2vw;
+    padding: 5vw;
+`;
+
 
 export default function Home() {
     
@@ -26,12 +32,15 @@ export default function Home() {
                 <TitleDiv>
                     HOME
                 </TitleDiv>
-                <PIDiv>
+                <SubtitleDiv>
                     My Home Page
-                </PIDiv>
+                </SubtitleDiv>
                 <MoreDiv>
                     Welcome To My Portfolio!
                 </MoreDiv>
+                <TextDiv>
+
+                </TextDiv>
                 
             </div>
         </Container>

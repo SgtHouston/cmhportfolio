@@ -11,10 +11,12 @@ const SpacingDiv = styled.div`
 
 
 
+
+
 function Header() {
     return (
 
-        <Navbar sticky="top" bg="primary" variant="dark" id="navbar">
+        <Navbar sticky="top" bg="danger" variant="dark" id="navbar">
             <Container>
             <Navbar.Brand>C H</Navbar.Brand>
             <Nav >

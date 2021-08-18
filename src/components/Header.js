@@ -18,7 +18,9 @@ function Header() {
 
         <Navbar sticky="top" bg="danger" variant="dark" id="navbar">
             <Container>
-            <Navbar.Brand>C H</Navbar.Brand>
+            <Navbar.Brand>
+                CH
+            </Navbar.Brand>
             <Nav >
                 <SpacingDiv className="Spacing-div">
                 </SpacingDiv>
@@ -54,10 +56,5 @@ function Header() {
     )
 }
 
-
-        
-            <Container>
-                <Navbar.Brand>Star Wars Characters</Navbar.Brand>
-            </Container>
 
 export default Header

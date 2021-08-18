@@ -25,25 +25,28 @@ function Header() {
                 <SpacingDiv className="Spacing-div">
                 </SpacingDiv>
 
+                {/* Home Page Path */}
                 <Nav.Item>
                     <Nav.Link href="/">
                         HOME
                     </Nav.Link>
                 </Nav.Item>
 
+                {/* About Page Path */}
                 <Nav.Item>
                     <Nav.Link href="/about">
                         ABOUT ME
                     </Nav.Link>
                 </Nav.Item>
 
+                {/* Projects Page Path */}
                 <Nav.Item>
                     <Nav.Link href="/projects">
                         PROJECTS
                     </Nav.Link>
                 </Nav.Item>
 
-
+                {/* Contact Page Path */}
                 <Nav.Item>
                     <Nav.Link href="/contact">
                         CONTACT

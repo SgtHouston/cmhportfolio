@@ -23,7 +23,7 @@ const MoreDiv = styled.div`
 
 const TextDiv = styled.div`
     font-size: 2vw;
-    padding: 5vw;
+    padding: 3vw;
 `;
 
 export default function Projects() {
@@ -57,8 +57,8 @@ export default function Projects() {
                             location, in addition to saving jobs as favorites
                         </p>
                         <p>
-                            •	Responsibilities: Developed Node.js Views/Partial pages rendered based on login status, homepage 
-                            route, designed mobile-responsive layout, README file, and database model association
+                            •	Responsibilities: Developed Node.js Views/Partial pages rendered based on login status of the user, homepage 
+                            route, designed mobile-responsive layout, authored README file, and established database model associations.
                         </p>
                     </TextDiv>
                 </Col>
@@ -89,7 +89,7 @@ export default function Projects() {
                         <Card.Body>
                             <Card.Title style={{ fontSize: '2vw' }}>Earthquake Tracker</Card.Title>
                             <Card.Text style={{ fontSize: '2vw' }}>
-                                Global Seismic Activity Tracking App 
+                                Global Seismic Activity Tracking Application 
                             </Card.Text>
                             <Button style={{ fontSize: '2vw' }} variant="danger" href="https://earthquake-tracker.netlify.app">View Live</Button><br />
                             <br />
@@ -107,7 +107,7 @@ export default function Projects() {
                             to visualize and obtain info about the 60 most recent earthquakes worldwide
                         </p>
                         <p>
-                            •	Responsibilities: Designed mobile-responsive layout, rendered earthquake data from API w/ JavaScript, and README file
+                            •	Responsibilities: Designed mobile-responsive Bootstrap v5 card layout, selected iconography and rendered earthquake data from API w/ JavaScript, authored README file
 
                         </p>
                     </TextDiv>

@@ -4,12 +4,12 @@ import styled from 'styled-components'
 
 
 const TitleDiv = styled.div`
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: 2rem;
     color: #D11F36;
 `;
 
-const PIDiv = styled.div`
+const SubtitleDiv = styled.div`
     font-size: 3rem;
 `;
 
@@ -18,6 +18,12 @@ const MoreDiv = styled.div`
     color: #D11F36;
 `;
 
+const TextDiv = styled.div`
+    font-size: 2vw;
+    padding: 5vw;
+`;
+
+
 export default function About() {
     return (
         <Container className="my-3 text-center">
@@ -25,12 +31,16 @@ export default function About() {
                 <TitleDiv>
                     CONTACT ME
                 </TitleDiv>
-                <PIDiv>
+                <SubtitleDiv>
                     Feel Free To Reach Out
-                </PIDiv>
+                </SubtitleDiv>
                 <MoreDiv>
                     Whether It's A Project, Question, or Opportunity, I'd Love To Hear From You ... Let's Chat!
                 </MoreDiv>
+
+                <TextDiv>
+
+                </TextDiv>
                 
             </div>
         </Container>
